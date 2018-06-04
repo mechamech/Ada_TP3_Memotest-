@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Memotest</title>
+</head>
+<body>
+	<h1>Memotest</h1>
+	<div id="mainContainer">
+		<aside>		
+			<h2 id="player">Jugador: </h2><span id="playerNameDisplay"></span>
+			<br>
+			<h3>Intentos restantes: </h3><span class="attempts"></span>
+			<div id="hiScores-container">
+				<h3>High Scores</h3>
+				<ul id="hiScores">
+				</ul>
+			</div>
+		</aside>
+		<div class="board overlay">
+			<div id='nameInput'>
+				<h2>Tu nombre:</h2>
+				<input type='text' id='input'>
+				<h3>Dificultad:</h3>
+				<button class="dificultad" value="18">Fácil - 18 movimientos</button>
+				<button class="dificultad" value="12">Intermedio - 12 movimientos</button>
+				<button class="dificultad" value="8">Experto - 8 movimientos</button>
+			</div>
+			<div id="gameEnd">
+			</div>			
+		</div>
+	</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.flip.min.js"></script>
+<script src="js/board.js"></script>
+<script src="js/tile.js"></script>
+<script src="js/leaderboard.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
