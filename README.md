@@ -1,4 +1,4 @@
-##TP N ° 3 – Memotest Avanzado
+TP N ° 3 – Memotest Avanzado
 
 Objetivo: a partir del desarrollo del TP Nº 2, realizar las siguientes mejoras:
 1- Incorporar una animación en el evento de click de la pieza al momento de la rotación (ej:
